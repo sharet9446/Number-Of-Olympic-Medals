@@ -63,23 +63,23 @@ NUMBER-OF-OLYMPIC-MEDALS
 │-- node_modules/
 │-- public/
 │-- src/
-│   ├── assets/              # 정적 파일 (이미지, 로고 등)
-│   ├── components/          # 재사용 가능한 UI 컴포넌트
+│   ├── assets/             
+│   ├── components/         
 │   │   ├── Form.jsx
 │   │   └── List.jsx
-│   ├── App.jsx              # 메인 애플리케이션 컴포넌트
-│   ├── App.css              # 전역 스타일링
-│   ├── index.css            # 메인 스타일 시트
-│   ├── main.jsx              # 엔트리 포인트
+│   ├── App.jsx              
+│   ├── App.css            
+│   ├── index.css            
+│   ├── main.jsx            
 │-- .gitignore
-│-- .prettierrc               # Prettier 설정
-│-- eslint.config.js          # ESLint 설정
-│-- image.png                 # 프로젝트 스크린샷
-│-- index.html                # 기본 HTML 템플릿
-│-- package.json              # 프로젝트 메타정보 및 의존성
-│-- README.md                 # 프로젝트 문서
-│-- vite.config.js             # Vite 설정 파일
-│-- yarn.lock                  # Yarn 의존성 버전 관리
+│-- .prettierrc             
+│-- eslint.config.js          
+│-- image.png                
+│-- index.html             
+│-- package.json             
+│-- README.md                
+│-- vite.config.js          
+│-- yarn.lock               
 
 ```
 
