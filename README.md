@@ -1,8 +1,22 @@
-# React + Vite
+# 프로젝트 이름
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+올림픽 메달의 개수
 
-Currently, two official plugins are available:
+![alt text](image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 기능
+- [x] 국가별 메달 입력
+- [x] 국가별 메달 수정 및 삭제
+- [x] 메달 순위 테이블 표시
+- [x] 반응형 웹 디자인
+
+## 기술 스택
+- **프론트엔드:** React, HTML, CSS
+- **스타일링:** CSS Flexbox
+
+## 설치 방법
+
+1. 프로젝트를 클론합니다:
+
+   ```bash
+   git clone https://github.com/yourusername/olympic-medal-tracker.git
