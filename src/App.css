@@ -17,7 +17,6 @@ body {
   height: 100vh;
 }
 
-
 .olympic {
   position: relative;
   left: 100px;
@@ -77,7 +76,7 @@ h1 {
 }
 
 .input input:focus {
-  border-color: #4CAF50;
+  border-color: #4caf50;
   outline: none;
   box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
 }
@@ -97,7 +96,7 @@ h1 {
   font-size: 18px;
   border: none;
   border-radius: 10px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -106,12 +105,12 @@ h1 {
 }
 
 .submission-form:hover {
-  background-color: #388E3C;
+  background-color: #388e3c;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .submission-form:active {
-  background-color: #2E7D32;
+  background-color: #2e7d32;
   transform: scale(0.975);
 }
 
@@ -175,7 +174,6 @@ th:hover {
 
 td {
   background-color: #eef3f7;
-
 }
 
 .delete-td {
