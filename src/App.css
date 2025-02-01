@@ -63,6 +63,14 @@ h1 {
   margin-bottom: 5px;
   font-size: 1.1rem;
   color: #34495e;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .input input {
@@ -96,7 +104,7 @@ h1 {
   font-size: 18px;
   border: none;
   border-radius: 10px;
-  background-color: #4caf50;
+  background-color: #1f561f;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -105,12 +113,12 @@ h1 {
 }
 
 .submission-form:hover {
-  background-color: #388e3c;
+  background-color: #194319;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .submission-form:active {
-  background-color: #2e7d32;
+  background-color: #123012;
   transform: scale(0.975);
 }
 

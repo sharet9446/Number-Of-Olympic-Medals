@@ -24,7 +24,7 @@ function MedalList({ countryList, setCountryList }) {
           </thead>
           <tbody>
             {countryList.map(({ country, gold, silver, bronze }, index) => (
-              <tr key={index}>
+              <tr key={country}>
                 <td>{index + 1}위</td>
                 <td>{country}</td>
                 <td>{gold}</td>
