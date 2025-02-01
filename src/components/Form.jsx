@@ -19,11 +19,11 @@ function MedalFrom({ countryList, setCountryList }) {
   // 수정하는 함수
   const medalEditItem = () => {
     if (duplicationCountry) {
-      countryList.map((country) => {
-        if (country.country === formData.country) {
-          country.gold = formData.gold;
-          country.silver = formData.silver;
-          country.bronze = formData.bronze;
+      countryList.map((list) => {
+        if (list.country === formData.country) {
+          list.gold = formData.gold;
+          list.silver = formData.silver;
+          list.bronze = formData.bronze;
         }
       });
       countryList.sort((a, b) => {
@@ -40,6 +40,7 @@ function MedalFrom({ countryList, setCountryList }) {
       alert('해당 국가를 찾을 수 없습니다.');
       return;
     }
+    setCountryList([...countryList]);
     // formData 초기화
     setFormData({
       country: '',
